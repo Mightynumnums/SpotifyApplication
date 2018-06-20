@@ -11,7 +11,7 @@
 
 function changePossibilities(amount, denominations) {
   //values stored in the array will be the total count of combinations for the different amounts
-  //each indx in the array will correlate to the amount of money
+  //each index in the array will correlate to the amount of money
 
   let combinations = []
   for (let i = 0; i <= amount; i++) {
